@@ -77,5 +77,5 @@ public class NotaController {
 	@GetMapping("/resultado/{codMatricula}")
 	public ResultadoDTO obtenerResultado(@PathVariable int codMatricula) {
 	    return notaService.calcularResultado(codMatricula);
-	}
+	
 }
