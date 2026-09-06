@@ -78,4 +78,4 @@ public class NotaController {
 	public ResultadoDTO obtenerResultado(@PathVariable int codMatricula) {
 	    return notaService.calcularResultado(codMatricula);
 	
-}
+
